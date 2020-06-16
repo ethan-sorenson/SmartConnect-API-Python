@@ -5,6 +5,7 @@ This example uses the [SmartConnect.com](https://smartconnect.com/ "SmartConnect
 
 ### Configuration
 You will need to supply some starting details which are included as variables at the start of the file.
+This can be retreived from SmartConnect > System > API Settings.
 ```{python}
 #Set Variables
 CustomerId = 'ebab41e1-dc5a-4dfa-aa05-5c900cb839e8'
@@ -21,6 +22,7 @@ mapKey = '364fde19-0748-4d10-886f-a95300a506c5'
 * All of the endpoints can be called independently
 * Every request will encode the password and request a new token before performing the command
 * All error lists come in XML, this sample will format the XML in a readable format.
+* Documentation on the endpoints can be found [here](https://www.eonesolutions.com/using-the-smartconnect-com-web-services/ "here").
 
 ### Troubleshooting
 * Blank response from server? Make sure the API URL is correct and you have access to the MapKey being used.
